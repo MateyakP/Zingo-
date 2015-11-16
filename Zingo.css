@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-image: url(http://cdn26.us1.fansshare.com/photo/wallpaperbackground/black-vintage-background-wallpaper-vintage-842572607.jpg);
+}
+
+#topbanner {
+  background-image: url(http://www.zastavki.com/pictures/2560x1600/2009/3D-graphics_Gray_Texture_016438_.jpg);
+  text-align: center;
+  border-style: solid;
+  height: 33px;
+  border-width: 1px;
+  border-color: white;
+  padding-top: 5px;
+  margin-top: 18px;
+}
+
+.welcometoZingo {
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-top: 25px;
+
+
+}
+
+.researchbar {
+  margin-top: 8px;
+  margin-left: 338px;
+  float: left;
+}
+
+.gobutton {
+  margin-top: 22px;
+  position: static;
+  margin-left: 50em;
+}
+
+
+.researchandbutton {
+  margin-left: 78px;
+
+}
+
+p {
+  margin-top: 8px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  margin-right: 75px;
+}
+
+#footer {
+  padding: 4px;
+  margin-top: 145px;
+  background-image: url(http://www.zastavki.com/pictures/2560x1600/2009/3D-graphics_Gray_Texture_016438_.jpg);
+  text-align: center;
+  color: white;
+  height: 22px;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+input {
+  font-size: 2em;
+  color: black;
+}
+
+.imagetransp {
+  opacity:0 ;
+  z-index:5;
+}
+
+#middlestuff {
+  z-index:10;
+  margin-top: -20px;
+
+  border-color: white;
+  border-width: 1px;
+  height: 188px;
+}
+
+#middlestuff::after {
+  content: "";
+  color: orange;
+  background-image: url("background_small.png");
+  background-repeat: repeat;
+  opacity: 0.5;
+  z-index:  -1;
+  height: 188px;
+  width: 100%;
+  position: absolute;
+  margin-top: -185px;
+}
